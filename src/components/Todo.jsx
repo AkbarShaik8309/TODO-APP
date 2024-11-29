@@ -49,7 +49,7 @@ const Todo = () => {
         <h1 className="text-3xl font-semibold">ToDo List</h1>
       </div>
       <div className="flex items-center my-7 bg-gray-200 rounded-full">
-        <input
+      <input
           ref={inputRef}
           className="bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-600"
           type="text"
@@ -57,7 +57,7 @@ const Todo = () => {
         />
         <button
           onClick={add}
-          className="border-none rounded-full bg-orange-600 w-32 h-14 text-white text-lg font-medium cursor-pointer"
+          className="border-none rounded-full bg-orange-600 w-32 h-14 text-white text-lg font-medium cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-orange-300 hover:bg-orange-500"
         >
           ADD
         </button>
